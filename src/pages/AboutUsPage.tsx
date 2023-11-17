@@ -1,7 +1,7 @@
 
 const AboutUsPage = () => {
   return (
-    <div className='mt-[20%]'>AboutUsPage</div>
+    <div className=''>AboutUsPage</div>
   )
 }
 

@@ -1,5 +1,5 @@
 const ImageIcon: React.FC<{
-    url: string;
+    url: string|undefined;
     ht?: string|number|undefined;
     wt?: string|number|undefined;
     className?: string;

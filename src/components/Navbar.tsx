@@ -47,10 +47,10 @@ const Navbar = () => {
     };
   }, []);
   return (
-    <div className="flex flex-col top-0 sticky z-10 h-screen">
+    <div className="flex flex-col top-0 sticky z-10">
       <div className="bg-[#1127ea] items-center px-[4.6%] py-[10px] flex flex-row gap-[6%] text-[17px]">
         <div className='flex flex-row gap-6 items-center'>
-          {isScrolled?<ImageIcon url={Logo1} wt="32px" ht="32px"/>:<></>}
+          {isScrolled?<ImageIcon url={Logo1} wt="38px" ht="38px"/>:<></>}
           <div className="text-[#fff] font-[500] cursor-pointer hover:text-[#ffffffc0]" onClick={handleHomeClick}>
             <h5 className="">Home</h5>
           </div>
@@ -67,7 +67,7 @@ const Navbar = () => {
                 Employee Details
               </div>
               <div className="hover:bg-[#1127eaeb] hover:text-white hover:rounded-sm py-1 px-2 cursor-pointer text-[14px]">
-                Dropdown Item 2
+                Certifications
               </div>
               
             </div>
