@@ -1,7 +1,8 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import { image, image1, image2 } from "../assets";
 import CardComponent from "../components/CardComponent";
 import Modal from "react-modal";
+import Footer from "../components/Footer";
 
 const GalleryPage = () => {
   const images = [image, image1, image2, image, image1, image2];
@@ -62,6 +63,7 @@ const GalleryPage = () => {
           </div>
         </div>
       </Modal>
+      <Footer/>
     </div>
   );
 };

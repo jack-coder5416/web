@@ -1,6 +1,6 @@
 import { Outlet, createBrowserRouter, useLocation } from "react-router-dom";
 import Navbar from "../../components/Navbar";
-import LandingPage from "../../pages/LandingPage";
+import LandingPage from "../../pages/LandingPage/LandingPage";
 import OrganisationBar from "../../components/OrganisationBar";
 import AboutUsPage from "../../pages/AboutUsPage";
 import EmployeePage from "../../pages/EmployeePage";
