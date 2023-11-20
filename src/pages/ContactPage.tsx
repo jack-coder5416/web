@@ -5,7 +5,7 @@ const ContactPage = () => {
     <div className="flex flex-col">
       <div className="flex flex-col mt-5 py-2 px-5 gap-10">
         <div className="">
-          <h5 className="text-[24px] font-[600]">Contact Us</h5>
+          <h5 className="text-[24px] font-[600] px-10 py-4">Contact Us</h5>
         </div>
         <div className="flex flex-row justify-evenly">
           <div className="flex flex-col rounded-md border-2 py-1 px-3 gap-1 border-[#023d7c] w-[20%]">

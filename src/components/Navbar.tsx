@@ -48,7 +48,7 @@ const Navbar = () => {
   }, []);
   return (
     <div className="flex flex-col top-0 sticky z-10">
-      <div className="bg-[#1127ea] items-center px-[4.6%] py-[10px] flex flex-row gap-[6%] text-[17px]">
+      <div className="bg-[#023d7c] items-center px-[4.6%] py-[10px] flex flex-row gap-[6%] text-[17px]">
         <div className='flex flex-row gap-6 items-center'>
           {isScrolled?<ImageIcon url={Logo1} wt="38px" ht="38px"/>:<></>}
           <div className="text-[#fff] font-[500] cursor-pointer hover:text-[#ffffffc0]" onClick={handleHomeClick}>
@@ -63,10 +63,10 @@ const Navbar = () => {
           <h5 className="">Services</h5>
           {showDropdown && (
             <div className="absolute top-[100%] left-0 right-[-180%] bg-white text-black py-2 px-4 shadow-md rounded-sm">
-              <div className="hover:bg-[#1127eaeb] hover:text-white hover:rounded-sm py-1 px-2 cursor-pointer text-[14px]" onClick={handleEmployeeClick}>
+              <div className="hover:bg-[#023d7c] hover:text-white hover:rounded-sm py-1 px-2 cursor-pointer text-[14px]" onClick={handleEmployeeClick}>
                 Employee Details
               </div>
-              <div className="hover:bg-[#1127eaeb] hover:text-white hover:rounded-sm py-1 px-2 cursor-pointer text-[14px]">
+              <div className="hover:bg-[#023d7c] hover:text-white hover:rounded-sm py-1 px-2 cursor-pointer text-[14px]">
                 Certifications
               </div>
               

@@ -2,7 +2,7 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 import ImageIcon from '../../components/ImageIcon';
-import { cover1 } from '../../assets';
+import { carou1, carou2, carou3 } from '../../assets';
 import './LandingPage.css'
 import Footer from "../../components/Footer";
 
@@ -10,16 +10,16 @@ const LandingPage = () => {
     
   return (
    <div className=" flex flex-col">
-      <div className="mr-[0.8%]  ">
+      <div className="mr-[0.8%] h-[1%] flex">
             <Carousel autoPlay={true} infiniteLoop={true} >
                 <div>
-                    <ImageIcon url={cover1}/>
+                    <ImageIcon url={carou1} wt="10px" ht="10px"/>
                 </div>
                 <div>
-                    <ImageIcon url={cover1}/>
+                    <ImageIcon url={carou2}/>
                 </div>
                 <div>
-                    <ImageIcon url={cover1}/>
+                    <ImageIcon url={carou3}/>
                 </div>
             </Carousel>
       </div>
@@ -29,7 +29,7 @@ const LandingPage = () => {
            </div>
            <div className=" flex flex-col w-[30%]">
               <h5 className="text-[#333] font-[600] text-[20px]">Notifications/Events</h5>
-              <div className="flex flex-col overflow-hidden border-2 border-[#f749497a] px-2 shadow-md">
+              <div className="flex flex-col overflow-hidden border-2 border-[#023d7c] px-2 shadow-md">
                   <div className="marquee-container">
                     <h5 className="marquee-item">MKI-353 Oil Certification</h5>
                     <h5 className="marquee-item">Annual Function</h5>

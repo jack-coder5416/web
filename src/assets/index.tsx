@@ -10,6 +10,9 @@ import image from './Images/image.png'
 import image1 from './Images/image1.png'
 import image2 from './Images/image2.png'
 import AboutImage from './Images/AboutImage.png'
+import carou1 from './Images/carou1.jpg'
+import carou2 from './Images/carou2.jpg'
+import carou3 from './Images/carou3.jpg'
 
 // dummy Icons
 import CardIconDummy from './dummyIcon/CardIconDummy.png'
@@ -35,6 +38,9 @@ export{
     image1,
     image2,
     AboutImage,
+    carou1,
+    carou2,
+    carou3,
 
     // dummy icons
     CardIconDummy,
